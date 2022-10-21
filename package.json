@@ -5,6 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel "
+    
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,8 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "img": "^3.0.3"
   }
 }
