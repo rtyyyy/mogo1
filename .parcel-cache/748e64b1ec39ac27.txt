@@ -1,6 +1,6 @@
 4352
 53D:\VSC\mogo1\node_modules\@parcel\events\src\types.js133107575352613980 0
-44D:\VSC\mogo1\node_modules\.package-lock.json133108479781700553 0
+44D:\VSC\mogo1\node_modules\.package-lock.json133108492857591767 0
 64D:\VSC\mogo1\node_modules\lmdb\dependencies\lz4\lib\liblz4.pc.in133107575355574521 0
 79D:\VSC\mogo1\node_modules\caniuse-lite\data\features\comparedocumentposition.js133107575355467136 0
 36D:\VSC\mogo1\node_modules\source-map133107575353230515 1
@@ -8,21 +8,21 @@
 27D:\VSC\mogo1\src\index.scss133108474479357649 0
 45D:\VSC\mogo1\node_modules\css-tree\lib\common133107575355584912 1
 73D:\VSC\mogo1\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts133107575354115660 0
-25D:\VSC\mogo1\package.json133108483629388019 0
+25D:\VSC\mogo1\package.json133108501720429464 0
 44D:\VSC\mogo1\node_modules\is-json\.npmignore133107575350844802 0
 30D:\VSC\mogo1\node_modules\sass133107584463601236 1
 44D:\VSC\mogo1\node_modules\lmdb\src\lmdb-js.h133107575355360208 0
 57D:\VSC\mogo1\node_modules\caniuse-lite\data\regions\NA.js133107575357541164 0
 46D:\VSC\mogo1\node_modules\@parcel\packager-raw133107575351440364 1
-30D:\VSC\mogo1\package-lock.json133108479781540582 0
+30D:\VSC\mogo1\package-lock.json133108492857431768 0
 82D:\VSC\mogo1\node_modules\lmdb\dependencies\lmdb-data-v1\libraries\liblmdb\LICENSE133107575352395044 0
 64D:\VSC\mogo1\node_modules\@parcel\transformer-image\package.json133107575352322005 0
 76D:\VSC\mogo1\node_modules\caniuse-lite\data\features\css-display-contents.js133107575355850464 0
 50D:\VSC\mogo1\node_modules\abortcontroller-polyfill133107575353103494 1
-17D:\VSC\mogo1\dist133108477359610996 1
+17D:\VSC\mogo1\dist133108501813549128 1
 60D:\VSC\mogo1\node_modules\@parcel\core\test\fixtures\plugins133107575355030534 1
 52D:\VSC\mogo1\node_modules\svgo\plugins\reusePaths.js133107575354839966 0
-43D:\VSC\mogo1\node_modules\@msgpackr-extract133108479781260540 1
+43D:\VSC\mogo1\node_modules\@msgpackr-extract133108492857161768 1
 72D:\VSC\mogo1\node_modules\msgpackr-extract\src\.vs\VSWorkspaceState.json133107575353310972 0
 57D:\VSC\mogo1\node_modules\caniuse-lite\data\regions\DO.js133107575356416885 0
 51D:\VSC\mogo1\node_modules\css-select\lib\index.d.ts133107575353936752 0
@@ -31,7 +31,7 @@
 60D:\VSC\mogo1\node_modules\svgo\plugins\convertShapeToPath.js133107575353535297 0
 48D:\VSC\mogo1\node_modules\parent-module\index.js133107575350845033 0
 53D:\VSC\mogo1\node_modules\lightningcss-win32-x64-msvc133107575351014005 1
-25D:\VSC\mogo1\node_modules133108479781260540 1
+25D:\VSC\mogo1\node_modules133108492857161768 1
 39D:\VSC\mogo1\node_modules\utility-types133107575353093496 1
 42D:\VSC\mogo1\node_modules\svgo\lib\path.js133107575354130503 0
 57D:\VSC\mogo1\node_modules\caniuse-lite\data\regions\RW.js133107575357898659 0
@@ -73,7 +73,7 @@
 55D:\VSC\mogo1\node_modules\type-fest\source\entries.d.ts133107575352917562 0
 71D:\VSC\mogo1\node_modules\@parcel\bundler-default\src\DefaultBundler.js133107575351384958 0
 43D:\VSC\mogo1\node_modules\yaml\types\set.js133107575354207971 0
-27D:\VSC\mogo1\src\index.html133108482982948495 0
+27D:\VSC\mogo1\src\index.html133108500001319305 0
 54D:\VSC\mogo1\node_modules\posthtml-parser\package.json133107575351678141 0
 57D:\VSC\mogo1\node_modules\caniuse-lite\data\regions\AM.js133107575353785773 0
 81D:\VSC\mogo1\node_modules\react-refresh\cjs\react-refresh-babel.production.min.js133107575351579041 0
@@ -148,7 +148,7 @@
 53D:\VSC\mogo1\node_modules\@parcel\events\lib\types.js133107575352462836 0
 56D:\VSC\mogo1\node_modules\type-fest\ts41\snake-case.d.ts133107575354076954 0
 51D:\VSC\mogo1\node_modules\caniuse-lite\package.json133107575358557080 0
-31D:\VSC\mogo1\node_modules\@lmdb133108479781260540 1
+31D:\VSC\mogo1\node_modules\@lmdb133108492857161768 1
 74D:\VSC\mogo1\node_modules\caniuse-lite\data\features\speech-recognition.js133107575358018710 0
 47D:\VSC\mogo1\node_modules\entities\package.json133107575352917562 0
 77D:\VSC\mogo1\node_modules\@jridgewell\resolve-uri\dist\resolve-uri.umd.js.map133107575351703870 0
@@ -2024,7 +2024,7 @@
 55D:\VSC\mogo1\node_modules\@swc\helpers\lib\_ts_param.js133107575355056343 0
 53D:\VSC\mogo1\node_modules\immutable\dist\immutable.js133107584463509143 0
 45D:\VSC\mogo1\node_modules\js-tokens\README.md133107575351663149 0
-35D:\VSC\mogo1\dist\mogo1.59712999.js133108477359037334 0
+35D:\VSC\mogo1\dist\mogo1.59712999.js133108500559583391 0
 44D:\VSC\mogo1\node_modules\is-number\index.js133107584463400388 0
 73D:\VSC\mogo1\node_modules\caniuse-lite\data\features\custom-elementsv1.js133107575356331707 0
 60D:\VSC\mogo1\node_modules\cosmiconfig\dist\Explorer.d.ts.map133107575353016805 0
@@ -4147,7 +4147,7 @@
 62D:\VSC\mogo1\node_modules\@parcel\core\src\loadParcelPlugin.js133107575355204445 0
 60D:\VSC\mogo1\node_modules\@parcel\core\src\PackagerRunner.js133107575355289247 0
 58D:\VSC\mogo1\node_modules\@parcel\core\src\ParcelConfig.js133107575355373606 0
-28D:\VSC\mogo1\dist\index.html133108477359323806 0
+28D:\VSC\mogo1\dist\index.html133108501813519074 0
 57D:\VSC\mogo1\node_modules\@parcel\core\src\projectPath.js133107575355495799 0
 49D:\VSC\mogo1\node_modules\@parcel\core\src\public133107575355738894 1
 51D:\VSC\mogo1\node_modules\@parcel\core\src\requests133107575355956180 1
@@ -4345,9 +4345,9 @@
 39D:\VSC\mogo1\node_modules\.bin\svgo.ps1133107575359205866 0
 37D:\VSC\mogo1\node_modules\.bin\terser133107575359251821 0
 41D:\VSC\mogo1\node_modules\.bin\terser.cmd133107575359256948 0
-36D:\VSC\mogo1\dist\index.b144780c.css133108476707224483 0
-40D:\VSC\mogo1\dist\index.b144780c.css.map133108476707254483 0
-36D:\VSC\mogo1\dist\index.ce1d6491.css133108477359222270 0
-40D:\VSC\mogo1\dist\index.ce1d6491.css.map133108477359257729 0
+36D:\VSC\mogo1\dist\index.b144780c.css133108501813519074 0
+40D:\VSC\mogo1\dist\index.b144780c.css.map133108501813549128 0
+36D:\VSC\mogo1\dist\index.ce1d6491.css133108500559402919 0
+40D:\VSC\mogo1\dist\index.ce1d6491.css.map133108500559412860 0
 35D:\VSC\mogo1\dist\Mogo.a6b22e64.png133108477359601002 0
-39D:\VSC\mogo1\dist\mogo1.59712999.js.map133108477359062270 0
+39D:\VSC\mogo1\dist\mogo1.59712999.js.map133108500559593359 0
