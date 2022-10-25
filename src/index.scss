@@ -410,4 +410,85 @@
         
     }
 }
+.mogo__main--block3{
+    background: url("./img/unsplash_l.png");
+    width: 1510px;
+    height: 868px;
+    z-index: -1;
+    position: relative;
+    margin: auto;
+    .mogo__main--block3--bg{
+        background: rgba(255, 255, 255, 0.8);
+        z-index: 10;
+        
+        position: absolute;
+        width: 1510;
+        height: 868px;
+        .mogo__main--heading{
+            width: 1170px;
+            height: 80px;
+            margin: auto;
+            margin: 0 170px 42px 170px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            line-height: 44px;
+            color: #2D3033;
+        }
+        .mogo__main--story{
+            width: 1170px;
+            height: 80px;
+            margin: 0 170px 24px 170px;
+            margin: auto;
+            text-align: center;
+            font-size: 36px;
+            line-height: 42px;
+            line-height: 100%;
+            color: #2D3033;
+            font-weight: 900;
+    
+        }
+        .mogo__main--line{
+            content: "";
+            border: 4px solid #F4BF87;
+            width: 170px;
+            margin: auto;
+            margin-bottom: 85px;
+            
+        }
+        .mogo__main--tablet{
+            width: 1170px;
+            height: 525px;
+            margin-left: 170px;
+            .mogo__main--tablet--out{
+                position: absolute;
+                z-index: 3;
+                
+            }
+            .mogo__main--tablet--in{
+                top: 20;
+                left:  250px;
+                z-index: -1;
+                position: relative;
+        }
+    }
+    .mogo__main--phone{
+        .mogo__main--phone--out{
+            left: 940px;
+            z-index: 5;
+            top: 498px;
+            position: absolute;
+        }
+        .mogo__main--phone--in{
+            position: absolute;
+            top: 498px;
+            left: 947px;
+            z-index: 4;
+
+        }
+    }
+    }
+}
 }
