@@ -215,8 +215,8 @@
     .mogo__main--pictures{
         display: flex;
         margin: auto;
-        max-width: 1300px;
-        margin-left: 170px;
+        max-width: 1200px;
+        margin-left: 300px;
         margin-right: 170px;
         ul{
             display: inline-flex;
@@ -227,6 +227,7 @@
             margin-right: 30px;
             width: 370px;
             
+            
         }
         li:nth-child(2){
             
@@ -235,8 +236,7 @@
         li{
             list-style-type: none;
             z-index: 998;
-            
-            
+            margin-left: 170px;
         }
         li:hover{
             
@@ -260,6 +260,8 @@
         
     }
 }.element__main{
-    position: relative;
+    
+    margin-left: 170px;
+    
 }
 }

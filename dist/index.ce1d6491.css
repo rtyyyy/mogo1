@@ -208,8 +208,8 @@
 }
 
 .mogo__body .mogo__main--1block .mogo__main--pictures {
-  max-width: 1300px;
-  margin: auto 170px;
+  max-width: 1200px;
+  margin: auto 170px auto 300px;
   display: flex;
 }
 
@@ -227,6 +227,7 @@
 
 .mogo__body .mogo__main--1block .mogo__main--pictures li {
   z-index: 998;
+  margin-left: 170px;
   list-style-type: none;
 }
 
@@ -248,7 +249,7 @@
 }
 
 .mogo__body .element__main {
-  position: relative;
+  margin-left: 170px;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */
