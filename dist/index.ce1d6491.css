@@ -160,6 +160,11 @@
   text-decoration: none;
 }
 
+.mogo__body .mogo__main--1block {
+  max-width: 1510px;
+  margin: auto;
+}
+
 .mogo__body .mogo__main--1block .mogo__main--heading {
   width: 1170px;
   height: 80px;
@@ -202,12 +207,18 @@
   display: flex;
 }
 
-.mogo__body .mogo__main--1block .mogo__main--pictures ul {
-  justify-content: center;
-  margin: 59px 170px 108px;
-  padding: 0;
+.mogo__body .mogo__main--1block .mogo__main--pictures {
+  max-width: 1300px;
+  margin: auto 170px;
   display: flex;
-  position: relative;
+}
+
+.mogo__body .mogo__main--1block .mogo__main--pictures ul {
+  width: 370px;
+  justify-content: center;
+  margin: auto 30px auto auto;
+  padding: 0;
+  display: inline-flex;
 }
 
 .mogo__body .mogo__main--1block .mogo__main--pictures li:nth-child(2) {
@@ -217,12 +228,27 @@
 .mogo__body .mogo__main--1block .mogo__main--pictures li {
   z-index: 998;
   list-style-type: none;
+}
+
+.mogo__body .mogo__main--1block .mogo__main--pictures .element__second {
+  z-index: -50;
+  position: relative;
+  left: -400px;
+}
+
+.mogo__body .mogo__main--1block .element__second:hover {
+  z-index: 50;
+  display: flex;
+  position: absolute;
+}
+
+.mogo__body .mogo__main--1block .element__main:hover {
+  z-index: 2;
   position: relative;
 }
 
-.mogo__body .mogo__main--1block .mogo__main--pictures li:hover {
-  z-index: 999;
-  background: url("Rectangle5.8849d47a.png");
+.mogo__body .element__main {
+  position: relative;
 }
 
 /*# sourceMappingURL=index.ce1d6491.css.map */

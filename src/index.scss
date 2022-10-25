@@ -166,6 +166,8 @@
 
 }
 .mogo__main--1block{
+    max-width: 1510px;
+    margin: auto;
     .mogo__main--heading{
         width: 1170px;
         height: 80px;
@@ -211,13 +213,19 @@
         line-height: 21px;
     }
     .mogo__main--pictures{
+        display: flex;
+        margin: auto;
+        max-width: 1300px;
+        margin-left: 170px;
+        margin-right: 170px;
         ul{
-            display: flex;
+            display: inline-flex;
             margin: auto;
             justify-content: center;
-            margin: 59px 170px 108px 170px;
+            // margin: 59px 170px 108px 170px;
             padding: 0;
-            position: relative;
+            margin-right: 30px;
+            width: 370px;
             
         }
         li:nth-child(2){
@@ -227,16 +235,31 @@
         li{
             list-style-type: none;
             z-index: 998;
-            position: relative;
+            
             
         }
         li:hover{
             
-            z-index: 999;
-            background: url("./img/Rectangle5.png");
+            
             
         }
-    
+    .element__second{
+        z-index: -50;
+        left:-400px;
+        position: relative;
     }
+    }
+    .element__second:hover{
+        display: flex;
+        z-index: 50;
+        position: absolute;
+    }
+    .element__main:hover{
+        z-index: 2;
+        position: relative;
+        
+    }
+}.element__main{
+    position: relative;
 }
 }
