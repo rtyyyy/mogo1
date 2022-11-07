@@ -17,1561 +17,1346 @@
 // @import "../node_modules/bootstrap/scss/buttons";
 // @import "../node_modules/bootstrap/scss/transitions";
 
-body{max-height: 15000px;
-    height:100%;
-.mogo__body{
-    header{
-        
-        
-        
-        
-    }
-.mogo__header{
-    z-index: 9;
-    background: url("./img/Rectangle2.png");
-    
-    height: 1024px;
-    width: 1510px;
-    margin: auto;
-    position: relative;
-    .mogo__header2{
-        background: linear-gradient(#E98283  0%, #EDD789 100%);
-        z-index: 10;
-        opacity: 0.9;
-    
-    .mogo__header--head{
-        display: flex;
-        
-    }
-    .mogo__header--mogo{
-        margin-left: 170px;
-        margin-top: 42px;
-        margin-right: 400px;
-    }
-    .mogo__header--menu{
-        display: flex;
-        justify-content: center;
-        ul{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            line-height: 16px;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        li{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            line-height: 16px;
-            width: 114px;
-            height: 100px;
-            
-            display: flex;
-            // justify-content: space-between;
-            list-style-type: none;
-            
-            
-        }
-        li:hover{
-            
-            color: #F4BF87;
-            
-            border-bottom: 2px solid #F4BF87;
-        }
-        li:hover a{
-            color: #F4BF87;
-        }
-        a{
-            text-decoration: none ;
-            border: none ;
-            font-size: 14px;
-            text-transform: uppercase;
-            color: #fff;
-            
-        }
-    }
-    .mogo__header--img{
-        display: flex;
-        ul{
-            display: flex;
-            justify-content: space-between;
-            list-style-type: none;
-        }
-        li{
-            margin-top: 20px;
-            margin-left: 20px;
-            margin-right: 40px;
-            
-        }
-    }
-    .mogo__header--text{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        margin-top: 77px;
-        text-align: center;
-        h2{
-            font-size: 64px;
-            line-height: 93px;
-            color: #fff;
-        }
-    }
-    .mogo__header--maintext{
-        width: 1170px;
-        height: 370px;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 170px 44px 170px;
-        
-        
-        h1{
-            opacity: 1;
-        font-size: 144px;
-        color: #fff;
-        text-align: center;
-        line-height: 176px;
-        line-height: 100%;
-        flex-wrap: wrap;
+body {
+    .mogo__body {
+        .mogo__header {
+            z-index: 9;
+            background: url("./img/Rectangle2.png");
 
-    }
-    }
-    .mogo__header--line{
-        content: "";
-        border: 4px solid  #fff;
-        width: 170px;
-        margin: auto;
-        
-    }
-    .mogo__header--button{
-        
-        margin: auto;
-        margin: 75px 570px 110px 570px;
-        width: 369px;
-        height: 78px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 369px;
-            height: 78px;
-            border: 4px solid #fff;
-            text-decoration: none;
-            color: #fff;
-            font-size: 24px;
-            line-height: 28px;
-            text-transform: uppercase;
-        }
-    }
-    .mogo__header--bottommenu{
-        ul{
-            
-            display: flex;
-            justify-content: center;
-            margin: 110px 170px 0 170px;
-            
-        }
-        li{
-            border-top:1px solid  #F9EFCF;
-            
-            
-            list-style-type: none;
-            margin-right: 30px;
-        }
-        a{
-            
-            opacity: 1;
-            display: flex;
-            align-items: center;
-            width: 270px;
-            text-decoration: none;
-            height: 85px;
-            color: #F9EFCF;
-            
-        }
-        p{
-            text-decoration: none;
-            font-size: 20px;
-            font-weight: 700;
-        }
-    }
-    }
-
-}
-.mogo__main--1block{
-    max-width: 1510px;
-    margin: auto;
-    .mogo__main--heading{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F4BF87;
-        width: 170px;
-        margin: auto;
-        
-    }
-    .mogo__main--text{
-        width: 1170px;
-        height: 118px;
-        margin: auto;
-        text-align: center;
-        margin: 0 170px 58px 170px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        line-height: 21px;
-    }
-    .mogo__main--pictures{
-        display: flex;
-        margin: auto;
-        max-width: 1200px;
-        margin-left: 300px;
-        margin-right: 170px;
-        z-index: 0;
-        position: relative;
-        
-        ul{
-            display: inline-flex;
-            margin: auto;
-            justify-content: center;
-            // margin: 59px 170px 108px 170px;
-            padding: 0;
-            margin-right: 30px;
-            width: 370px;
-            height: 338px;
-            z-index: 0;
-        position: relative;
-            
-        }
-        // li:nth-child(2){
-        //     margin: 0 30px;
-        // }
-        li{
-            list-style-type: none;
-            
-            
-        }
-        .element__main{
-            width: 380px;
-            height: 338px;
-            margin-left: 110px;
-            
-        }
-        // li:hover{// }
-    .element__second{
-        z-index: -2;
-        // margin: auto;
-        width: 380px;
-        height: 338px;
-        left:-370px;
-        display: flex;
-        position: relative;
-    }
-    }
-    .element__main:hover{
-        display: flex;
-        z-index: -1;
-        position: relative;
-        opacity: 0.2;
-        
-    }
-    .element__second:hover{
-        
-                z-index: 50;
-                transform: translateY(-30px);
-                position: relative;
-        // position: absolute;
-        // transition: translateY(25px);
-        // left:-530px;
-        
-    }
-    .mogo__main--text-picture {
-        position: relative;
-        left: -570px;
-        z-index: -2;
-        top: 150px;
-        width: 370px;
-        height: 28px;
-        
-        p{
-            
-            font-weight: 500;
-            text-align: center;
-            color: #FFFFFF;
-            font-size: 24px;
-            display: flex;
-        }
-    }
-    .mogo__main--text-picture:hover{
-        width: 370px;
-        height: 28px;
-        z-index: 50;
-        p{
-            width: 370px;
-            height: 28px;
-            text-align: center;
-            display: flex;
-        }
-    }
-    
-}
-
-.mogo__main--1block--bottom{
-    margin-top: 108px;
-    background: #95E1D3;
-    height: 250px;
-    max-width: 1510px;
-    ul{
-        display: flex;
-        margin: 0 170px;
-        height: 250px;
-        justify-content: center;
-        padding: 0;
-    }
-    li{
-        width: 234px;
-        list-style-type: none;
-        text-align: center;
-        color: #FFFFFF;
-        display: block;
-        padding-top: 50px;
-        border-left: 1px solid #FFFFFF;
-        border-right: 1px solid #FFFFFF;
-
-    }
-    p{
-        font-size: 64px;
-        font-weight: 700;
-        color: #FFFFFF;
-        margin: 0;
-        line-height: 75px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    h5{
-        font-size: 24px;
-        line-height: 25px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-weight: 500;
-    }
-}
-.mogo__main--2block{
-    .mogo__main--heading{
-        
-        height: 80px;
-        margin: auto;
-        margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F4BF87;
-        width: 170px;
-        margin: auto;
-        margin-bottom: 85px;
-        
-    }
-    .mogo__main--services{
-        width: 1170px;
-        margin: auto;
-        display: grid;
-        grid-template-rows: 290px 229px ;
-        grid-template-columns: 400px 400px 400px;
-        
-        
-        .mogo__main--service--part{
-            display: flex;
-            width: 370px;
-            height: 139px;
-            
-            img{
-                width: 70px;
-                height: 70px;
-            }
-            h5{
-                width: 270px;
-                height: 51px;
-                font-size: 24px;
-                font-weight: 700;
-                line-height: 28px;
-                line-height: 100%;
-                margin: 0;
-                display: flex;
-                align-items: center;
-                text-transform: uppercase;
-
-            }
-            p{
-                width: 270px;
-                height: 80px;
-                margin: 0;
-                color: #2D3033;
-                font-size: 18px;
-                font-weight: 400;
-                display: flex;
-                align-items: center;
-            }
-            .mogo__main--service--text{
-                margin-left: 37px;
-            }
-        }
-        
-            
-        
-    }
-}
-.mogo__main--block3{
-    // margin-top: 90px;
-    background: url("./img/unsplash_l.png");
-    width: 1510px;
-    height: 868px;
-    z-index: -1;
-    position: relative;
-    margin: auto;
-    .mogo__main--block3--bg{
-        background: rgba(255, 255, 255, 0.8);
-        z-index: 10;
-        
-        position: absolute;
-        width: 1510;
-        height: 868px;
-        .mogo__main--heading{
-            width: 1170px;
-            height: 80px;
-            margin: auto;
-            margin: 0 170px 42px 170px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            line-height: 44px;
-            color: #2D3033;
-        }
-        .mogo__main--story{
-            width: 1170px;
-            height: 80px;
-            margin: 0 170px 24px 170px;
-            margin: auto;
-            text-align: center;
-            font-size: 36px;
-            line-height: 42px;
-            line-height: 100%;
-            color: #2D3033;
-            font-weight: 900;
-    
-        }
-        .mogo__main--line{
-            content: "";
-            border: 4px solid #F4BF87;
-            width: 170px;
-            margin: auto;
-            margin-bottom: 85px;
-            
-        }
-        .mogo__main--tablet{
-            width: 1170px;
-            height: 525px;
-            margin-left: 170px;
-            .mogo__main--tablet--out{
-                position: absolute;
-                z-index: 3;
-                
-            }
-            .mogo__main--tablet--in{
-                top: 20;
-                left:  250px;
-                z-index: -1;
-                position: relative;
-        }
-    }
-    .mogo__main--phone{
-        .mogo__main--phone--out{
-            left: 940px;
-            z-index: 5;
-            top: 498px;
-            position: absolute;
-        }
-        .mogo__main--phone--in{
-            position: absolute;
-            top: 498px;
-            left: 947px;
-            z-index: 4;
-
-        }
-    }
-    }
-}
-.mogo__main--block4{
-    
-    .mogo__main--heading{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        // margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F38281;
-        width: 170px;
-        margin: auto;
-        margin-bottom: 24px;
-        
-    }
-    .mogo__main--text{
-        width: 1170px;
-        height: 118px;
-        margin: 24px 170px 42px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 18px;
-        line-height: 21px;
-        line-height: 100%;
-        color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mogo__main--block4--info{
-        display: flex;
-        
-        margin: 42px 170px 114px 170px;
-        margin: auto;
-        width: 1170px;
-        
-        
-
-    }
-    .mogo__main--info--img{
-        width: 570px;
-        height: 483px;
-        margin: 42px 0px 114px 0px;
-    }
-    .mogo__main--1st-unit{
-        width: 570px;
-        height: 255px;
-        border: 1px solid #C6CBCD;
-        margin: 42px 170px 22px 30px;
-        
-        .mogo__main--1st-unit-head{
-            display: flex;
-            height: 92px;
-            width: 570px;
-            border-bottom: 1px solid #C6CBCD;
-            .src1{width: 36px;
-            height: 36px;
-        margin: 28px 43px 28px 21px;}
-        p{
-            width: 370px;
-            height: 92px;
-            font-size: 24px;
-            text-transform: uppercase;
-            color: #2D3033;
-            line-height: 28px;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            font-weight: 700;
-        }
-        .src2{
-            width: 30px;
-            height: 16px;
-            margin: 33px 20px 42px 50px;
-        }
-        }
-        .mogo__main--1st-unit-bottom{
-            display: flex;
-            p{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 463px;
-                height: 163px;
-                margin: 0 54px 0 22px;
-                font-size: 18px;
-                color: #2D3033;
-                
-            }
-            .scroll{
-                content: "";
-                height: 128px;
-                width: 7px;
-                border: 1px solid #f5f5f5;
-                margin: 17px 24px 18px 54px;
-                background: #F5F5F5;
-                .scroll2{
-                    width: 7px;
-                    height: 60px;
-                    background: #95E1D3;
-                }
-            }
-        }
-    }
-    .mogo__main--others--units{
-        display: block;
-        .mogo__main--1st-unit-head{
-            display: flex;
-            height: 92px;
-            width: 570px;
-            border: 1px solid #C6CBCD;
-            margin: 22px 170px 22px 30px;
-            .src1{width: 36px;
-            height: 36px;
-        margin: 28px 43px 28px 21px;}
-        p{
-            width: 370px;
-            height: 92px;
-            font-size: 24px;
-            text-transform: uppercase;
-            color: #2D3033;
-            line-height: 28px;
-            margin: 0;
-            display: flex;
-            align-items: center;
-            font-weight: 700;
-        }
-        .src2{
-            width: 30px;
-            height: 16px;
-            margin: 33px 20px 42px 50px;
-        }
-        }
-
-    }
-    .mogo__main--4block-reviews{
-        width: 1510px;
-        height: 254px;
-        background: #F8F8F8;
-        display: flex;
-        margin: 0 0 84px 0;
-        margin: auto;
-        .mogo__main--4block-left--arrow{
-            margin: 122px 58px 101px 195px;
-        }
-        .mogo__main-4block--icon{
-            width: 170px;
-            height: 170px;
-            border: 2px solid #95E1D3;
-            margin: 42px 0px 42px 0px;
-            img{
-                margin: 48px;
-
-            }
-        }
-        .mogo__main-4block--mainpart{
-        .mogo__main-4block--headpart{
-            width: 770px;
-            height: 96px;
-            margin: 42px 60px 0px 30px;
-            color: #A9AFB1;
-            font-size: 24px;
-        }
-        .mogo__main-4block--footerpart{
-            display: flex;
-            .line__4block{
-                content: "";
-                border: 4px solid #F38281;
-                width: 70px;
-                margin: 48px 56px 68px 30px;
-                // height: 4px;
-                // color: #F38281;
-            }
-            .name__4block--footer{
-                width: 644px;
-                height: 53px;
-                display: flex;
-                align-items: center;
-                margin: 21px 60px 42px 0px;
-                font-size: 30px;
-                color: #000000;
-                line-height: 44px;
-            }
-        }
-    }
-        .mogo__main-4block--right--arrow{
-            margin: 122px 195px 101px 0px;
-        }
-}
-
-}
-.mogo__main--5block{
-    .mogo__main--heading{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        // margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F38281;
-        width: 170px;
-        margin: auto;
-        margin-bottom: 24px;
-        
-    }
-    .mogo__main--text{
-        width: 1170px;
-        height: 118px;
-        margin: 24px 170px 42px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 18px;
-        line-height: 21px;
-        line-height: 100%;
-        color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mogo__main--5block--designers{
-        z-index: 0;
-        max-width: 1510px;
-        max-height: 424px;
-        margin-left: 170px;
-        ul{
-            // margin: 0 170px;
-            display: grid;
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            grid-template-columns:400px 400px 400px;
-            // position: absolute;
-            // left: 330px;
-            z-index: 0;
-            li{
-                list-style-type: none;
-                margin: 15px;
-                img{
-                    position: relative;
-                    z-index: 2;
-                }
-                img:hover{
-                    z-index: -4;
-                    
-                }
-            }
-            
-        }
-        .rectangles{
-            top: -443px;
-            left: 35px;
-            max-height: 1px;
-            margin: 0 170px;
-            display: grid;
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            grid-template-columns:400px 400px 400px;
-        .hover1{
-            position: relative;
-            top: -443px;
-            left: 35px;
-        z-index:1 ;
-        img{
-            margin: 15px;
-            z-index:2 ;
-            position: relative;
-            top: -300px;
-            
-        }
-        img:hover,img:active{
-            z-index: 10;
-            // transition: translateY(-30PX);
-            position: relative;
-        }
-        }
-        
-    }
-    
-    }
-    .links__designers{
-        
-        top: -443px;
-            // left: 35px;
-            max-height: 1px;
-            // margin: 0 170px;
-            display: grid;
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            
-            grid-template-columns:400px 400px 400px;
-        ul{
-            display: flex;
-            
-            
-            // margin: 100px;
-            li{
-                
-                list-style-type:none ;
-                position: relative;
-            top: -220px;
-            
-            left: 90px;
-            // left: 35px;
-            
-        z-index:1 ;
-            img{
-                margin: 0;
-            }
-        }
-        // li:hover{
-            
-        // }
-    }
-        
-    }
-    .mogo__block5--des-name{
-        
-        max-width: 1510px;
-        max-height: 80px;
-        margin-left: 170px;
-
-display: grid;
-align-items: center;
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            grid-template-columns:400px 400px 400px;
-        .name{
-            
-            p{
-                position: relative;
-                margin: auto;
-                width: 370px;
-                height: 80px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 24px;
-            font-weight: 700;
-                
-            }
-        }
-        
-    }
-    .mogo__block5--des{
-        max-width: 1510px;
-        max-height: 30px;
-        margin-left: 170px;
-
-display: grid;
-align-items: center;
-            text-align: center;
-            justify-content: center;
-            margin: auto;
-            grid-template-columns:400px 400px 400px;
-        .des{
-            position: relative;
-            margin: auto;
-            width: 370px;
-            height: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 18px;
-        
-        }
-    }
-.mogo__main--5block-links{
-    background: #F8F8F8;
-    
-    max-width: 1510px;
-    max-height: 221px;
-    margin: auto;
-    ul{
-        margin-top: 84px;
-        display: flex;
-        li{
-            list-style-type:none ;
-            margin: 70px 80px;
-            
-        }
-    }
-}
-}
-.mogo__main--6block{
-    .mogo__main--heading{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        // margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        margin-top: 84px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F38281;
-        width: 170px;
-        margin: auto;
-        margin-bottom: 24px;
-        
-    }
-    .mogo__main--text{
-        width: 1170px;
-        height: 118px;
-        margin: 24px 170px 42px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 18px;
-        line-height: 21px;
-        line-height: 100%;
-        color: #000;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mogo__main--6block--pictures{
-        margin-top: 42px;
-        .head__side{
-            position: relative;
-            z-index: 0;
-            ul{
-                margin: auto;
-                max-width: 1510px;
-                width: 100%;
-                display: flex;
-                
-                
-                li{
-                    list-style-type:none ;
-                    position: relative;
-                    z-index: 1;
-                    img{
-                        width: 377.5px;
-                    }
-                }
-                li:hover{
-                    position: relative;
-                    z-index: -6;
-                }
-            }
-            ol{
-                max-width: 1510px;
-                width: 100%;
-                height: 0;
-                
-                margin: auto;
-                display: flex;
-                li{
-                    
-                    position: relative;
-                    z-index: -1;
-                    top: -760px;
-                    list-style-type: none;
-                    img{
-                        width: 377.5px;
-                    }
-                }
-                li:hover{
-                    position: relative;
-                    z-index: 8;
-                }
-            }
-            .header__pict{
-                height: 0;
-                display: flex;
-                max-width: 1510px;
-                width: 100%;
-                margin: auto;
-                p{
-                    height: 50px;
-                    width: 378px;
-                    margin: 0;
-                    position: relative;
-                    top: -550px;
-                    left: 115px;
-                    color: #FFFFFF;
-                    font-size: 24px;
-                    font-weight: 700;
-                    
-                    text-align: center;
-                    display: grid;
-                    grid-template-columns: 200px 200px 200px 200px;
-                    
-                }
-            }
-            .text__pict{
-                display: flex;
-                max-width: 1510px;
-                width: 100%;
-                margin: 0;
-                margin: auto;
-                height: 0;
-                p{
-                    height: 30px;
-                    width: 378px;
-                    margin: 0;
-                    margin: auto;
-                    position: relative;
-                    top: -520px;
-                    left: 115px;
-                    color: #FFFFFF;
-                    font-size: 18px;
-                    font-weight: 400;
-                    text-align: center;
-                    display: grid;
-                    grid-template-columns: 200px 200px 200px 200px;
-                    line-height: 21px;
-                }
-            }
-            .troph__pict{
-                
-                max-width: 1510px;
-                width: 100%;
-                margin: 0;
-                margin: auto;
-                height: 0;
-                ul{
-                    display: flex;
-                    
-                    li{
-                        display: grid;
-                        left: 150px;
-                    grid-template-columns: 110px 110px 80px 80px;
-                        top: -610px;
-                        position: relative;
-                        z-index: -1;
-                        img{
-                            width: 42px;
-                            height: 42px;
-                        }
-                    }
-                    li:hover{
-                        position: relative;
-                        z-index: 8;
-                    }
-                }
-            }
-        }
-        .bot__side{
-            height: 0;
-            
-            ul{
-                max-width: 1510px;
-                width: 100%;
-                display: flex;
-                
-
-                li{
-                    height: 0;
-                    position: relative;
-                    top: -383px;
-                    z-index: 1;
-                    img{
-                        width: 377.5px;
-                    }
-                }
-                li:last-child{
-                    
-                    position: relative;
-                    left: 377px;
-                    
-                }
-                li:hover{
-                    position: relative;
-                    z-index:-6;
-                    
-                }
-            }
-            ol{
-                max-width: 1510px;
-                width: 100%;
-                height: 0;
-                margin: auto;
-                display: flex;
-                li{
-                    height: 0;
-                    position: relative;
-                    z-index: -1;
-                    top: -383px;
-                    list-style-type: none;
-                    img{
-                        width: 377.5px;
-                    }
-                }
-                li:hover{
-                    position: relative;
-                    z-index: 8;
-                }
-            }
-            .header__pict{
-                height: 0;
-                display: flex;
-                max-width: 1510px;
-                width: 100%;
-                margin: auto;
-                p{
-                    height: 50px;
-                    width: 378px;
-                    margin: 0;
-                    position: relative;
-                    top: -170px;
-                    left: 115px;
-                    color: #FFFFFF;
-                    font-size: 24px;
-                    font-weight: 700;
-                    text-align: center;
-                    display: grid;
-                    grid-template-columns: 200px 200px 200px 200px;
-                }
-            }
-            .text__pict{
-                display: flex;
-                max-width: 1510px;
-                width: 100%;
-                margin: 0;
-                margin: auto;
-                height: 0;
-                p{
-                    height: 30px;
-                    width: 378px;
-                    margin: 0;
-                    position: relative;
-                    top: -140px;
-                    left: 115px;
-                    color: #FFFFFF;
-                    font-size: 18px;
-                    font-weight: 400;
-                    
-                    line-height: 21px;
-                    text-align: center;
-                    display: grid;
-                    grid-template-columns: 200px 200px 200px 200px;
-                }
-            }
-            .troph__pict{
-                
-                max-width: 1510px;
-                width: 100%;
-                margin: 0;
-                margin: auto;
-                height: 0;
-                ul{
-                    display: flex;
-                    
-                    li{
-                        display: grid;
-                        left: 150px;
-                    grid-template-columns: 110px 110px 80px 80px;
-                        top: -230px;
-                        position: relative;
-                        z-index: -1;
-                        img{
-                            width: 42px;
-                            height: 42px;
-                        }
-                    }
-                    li:hover{
-                        position: relative;
-                        z-index: 8;
-                    }
-                }
-            }
-        }
-    }
-    .mogo__main--block6--bottom{
-        margin-top: 64px;
-        // width: 1510px;
-        // margin: auto;
-        //     height: 254px;
-        .mogo__main--6block-reviews{
             width: 1510px;
-            height: 254px;
-            background: #FFFFFF;
-            display: flex;
-            margin: 0 0 84px 0;
+            // height: 1024px;
             margin: auto;
-            .mogo__main--6block-left--arrow{
-                margin: 122px 58px 101px 195px;
-            }
-            .mogo__main-6block--icon{
-                width: 170px;
-                height: 170px;
-                
-                margin: 42px 30px 42px 0px;
-                img{
-                    
-                    width: 170px;
-                    height: 170px;
-    
-                }
-            }
-            .mogo__main-6block--mainpart{
-            .mogo__main-6block--headpart{
-                width: 770px;
-                height: 96px;
-                margin: 42px 60px 0px 30px;
-                color: #A9AFB1;
-                font-size: 24px;
-            }
-            .mogo__main-6block--footerpart{
-                display: flex;
-                .line__6block{
-                    content: "";
-                    border: 4px solid #F38281;
-                    width: 70px;
-                    margin: 48px 56px 68px 30px;
-                    // height: 4px;
-                    // color: #F38281;
-                }
-                .name__6block--footer{
-                    width: 644px;
-                    height: 53px;
+            position: relative;
+            .mogo__header2 {
+                background: linear-gradient(#e98283 0%, #edd789 100%);
+                z-index: 10;
+                opacity: 0.9;
+
+                .mogo__header--head {
                     display: flex;
+                }
+                .mogo__header--mogo {
+                    margin-left: 170px;
+                    margin-top: 42px;
+                    margin-right: 400px;
+                }
+                .mogo__header--menu {
+                    display: flex;
+                    justify-content: center;
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 16px;
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    li {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 16px;
+                        width: 114px;
+
+                        display: flex;
+                        // justify-content: space-between;
+                        list-style-type: none;
+                    }
+                    li:hover {
+                        color: #f4bf87;
+
+                        border-bottom: 2px solid #f4bf87;
+                    }
+                    li:hover a {
+                        color: #f4bf87;
+                    }
+                    a {
+                        text-decoration: none;
+                        border: none;
+                        font-size: 14px;
+                        text-transform: uppercase;
+                        color: #fff;
+                    }
+                }
+                .mogo__header--img {
+                    display: flex;
+                    ul {
+                        display: flex;
+                        justify-content: space-between;
+                        list-style-type: none;
+                    }
+                    li {
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        margin-right: 40px;
+                    }
+                }
+                .mogo__header--text {
+                    width: 1170px;
+                    height: 80px;
+                    margin: auto;
+                    margin-top: 77px;
+                    text-align: center;
+                    h2 {
+                        font-size: 64px;
+                        line-height: 93px;
+                        color: #fff;
+                    }
+                }
+                .mogo__header--maintext {
+                    width: 1170px;
+
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
                     align-items: center;
-                    margin: 21px 60px 42px 0px;
-                    font-size: 30px;
-                    color: #000000;
-                    line-height: 44px;
+                    margin: 0 170px 44px 170px;
+
+                    h1 {
+                        opacity: 1;
+                        font-size: 144px;
+                        color: #fff;
+                        text-align: center;
+                        line-height: 176px;
+                        line-height: 100%;
+                        flex-wrap: wrap;
+                    }
+                }
+                .mogo__header--line {
+                    content: "";
+                    border: 4px solid #fff;
+                    width: 170px;
+                    margin: auto;
+                }
+                .mogo__header--button {
+                    margin: auto;
+                    margin: 75px 570px 110px 570px;
+                    width: 369px;
+                    height: 78px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 369px;
+                        height: 78px;
+                        border: 4px solid #fff;
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 24px;
+                        line-height: 28px;
+                        text-transform: uppercase;
+                    }
+                }
+                .mogo__header--bottommenu {
+                    ul {
+                        display: flex;
+                        justify-content: center;
+                        margin: 110px 170px 0 170px;
+                    }
+                    li {
+                        border-top: 1px solid #f9efcf;
+
+                        list-style-type: none;
+                        margin-right: 30px;
+                    }
+                    a {
+                        opacity: 1;
+                        display: flex;
+                        align-items: center;
+                        width: 270px;
+                        text-decoration: none;
+                        height: 85px;
+                        color: #f9efcf;
+                    }
+                    p {
+                        text-decoration: none;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
                 }
             }
         }
-            .mogo__main-6block--right--arrow{
-                margin: 122px 195px 101px 0px;
-            }
-    }
-    }
-}
-.mogo__main--block7{
-    width: 1510px;
-    height: 923px;
-    
-    position: relative;
-    z-index: 0;
-    margin: auto;
-    margin-top: 84px;
-    background: url("./img/unsplash_-qrcOR33ErA.png");
-    .mogo__main--block7--background{
-        width: 1510px;
-        height: 923px;
-        position: relative;
-        z-index: 1;
-        background: url("./img/Rectangle24.png");
-        opacity: 0.9;
-        .mogo__main--heading{
-            width: 1170px;
-            height: 80px;
+        .mogo__main--1block {
+            max-width: 1510px;
             margin: auto;
-            // margin: 0 170px 42px 170px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            margin-top: 84px;
-            line-height: 44px;
-            color: #2D3033;
-        }
-        .mogo__main--story{
-            width: 1170px;
-            height: 80px;
-            margin: 0 170px 24px 170px;
-            margin: auto;
-            text-align: center;
-            font-size: 36px;
-            line-height: 42px;
-            line-height: 100%;
-            color: #2D3033;
-            font-weight: 900;
-        }
-        .mogo__main--line{
-            content: "";
-            border: 4px solid #F38281;
-            width: 170px;
-            margin: auto;
-            margin-bottom: 24px;
-            
-        }
-        .mogo__main--happy-clients{
-            margin-left: 190px;
-            display: grid;
-            grid-template-columns: 650px 500px;
-            grid-template-rows: 350px 350px;
-            .mogo__main--client{
-                width: 550px;
-                height: 285px;
-                margin-top: 42px;
+            position: relative;
+            z-index: 0;
+            .mogo__main--heading {
+                width: 1170px;
+                height: 80px;
+                margin: auto;
+                margin: 0 170px 42px 170px;
+                text-align: center;
                 display: flex;
-                .mogo__main--client--photo{
-                    margin: 20px 50px 135px 0px;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                line-height: 44px;
+                color: #2d3033;
+                margin: auto;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f4bf87;
+                width: 170px;
+                margin: auto;
+            }
+            .mogo__main--text {
+                width: 1170px;
+                height: 118px;
+                margin: auto;
+                text-align: center;
+                margin: 0 170px 58px 170px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 18px;
+                line-height: 21px;
+            }
+            .picures__block1 {
+                .mogo__main--pictures {
+                    margin: auto;
+                    max-width: 1210px;
+                    // margin-right: 170px;
+                    // margin-left: 300px;
+                    // margin-right: 170px;
+                    z-index: 0;
+                    position: relative;
+
+                    ul {
+                        display: flex;
+                        margin: auto;
+                        display: grid;
+                        grid-template-columns: 400px 400px 400px;
+                        li {
+                            list-style-type: none;
+                            width: 370px;
+                            height: 338px;
+                            position: relative;
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            .hover2 {
+                                position: absolute;
+                                left: 45%;
+                                top: 60%;
+                                transform: translate(-50%, -50%);
+                                color: #fff;
+                                z-index: 1;
+                                opacity: 0;
+                                transition: 0.3s;
+                                text-transform: uppercase;
+                            }
+                            .hoverimg {
+                                position: absolute;
+                                left: 45%;
+                                top: 40%;
+                                transform: translate(-50%, -50%);
+                                color: #fff;
+                                z-index: 1;
+                                opacity: 0;
+                                transition: 0.3s;
+                            }
+                        }
+                        li::after {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            height: 100%;
+                            width: 100%;
+                            opacity: 0;
+                            background: linear-gradient(
+                                360deg,
+                                rgba(237, 215, 137, 0.9) 0%,
+                                rgba(233, 130, 131, 0.9) 100%
+                            );
+                            transition: 0.3s;
+                        }
+
+                        li:hover::after {
+                            opacity: 1;
+                            transform: translate(-5%, -5%);
+                        }
+                        li:hover {
+                            .hover2 {
+                                opacity: 1;
+                            }
+                            .hoverimg {
+                                opacity: 1;
+                            }
+                        }
+                    }
                 }
-                .mogo__maim--client--charact{
-                    .client__name{
-                        width: 370px;
-                        height: 52px;
+                // .mogo__main--pictures:hover {
+                //     position: relative;               //!!!//
+                //     z-index: -7;
+                // }
+
+                // .mogo__main--text-picture {
+                //     display: grid;
+
+                //     margin-left: 330px;
+                //     grid-template-columns: 400px 400px 400px;
+                //     position: relative;
+                //     top: -150px;
+                //     position: relative;
+
+                //     color: #f5f5f5;
+
+                //     z-index: -1;
+                //     .hover2 {
+                //     }
+                //         .hover2:hover
+                //         {
+                //             position: relative;
+                //             z-index: 40;
+
+                //         }
+
+                // }
+            }
+        }
+
+        .mogo__main--1block--bottom {
+            margin-top: 108px;
+            background: #95e1d3;
+            height: 250px;
+            max-width: 1510px;
+            ul {
+                display: flex;
+                margin: 0 170px;
+                height: 250px;
+                justify-content: center;
+                padding: 0;
+            }
+            li {
+                width: 234px;
+                list-style-type: none;
+                text-align: center;
+                color: #ffffff;
+                display: block;
+                padding-top: 50px;
+                border-left: 1px solid #ffffff;
+                border-right: 1px solid #ffffff;
+            }
+            p {
+                font-size: 64px;
+                font-weight: 700;
+                color: #ffffff;
+                margin: 0;
+                line-height: 75px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            h5 {
+                font-size: 24px;
+                line-height: 25px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-weight: 500;
+            }
+        }
+        .mogo__main--2block {
+            .mogo__main--heading {
+                height: 80px;
+                margin: auto;
+                margin: 0 170px 42px 170px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                line-height: 44px;
+                color: #2d3033;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f4bf87;
+                width: 170px;
+                margin: auto;
+                margin-bottom: 85px;
+            }
+            .mogo__main--services {
+                width: 1170px;
+                margin: auto;
+                display: grid;
+                grid-template-rows: 290px 229px;
+                grid-template-columns: 400px 400px 400px;
+
+                .mogo__main--service--part {
+                    display: flex;
+                    width: 370px;
+                    height: 139px;
+
+                    img {
+                        width: 70px;
+                        height: 70px;
+                    }
+                    h5 {
+                        width: 270px;
+                        height: 51px;
                         font-size: 24px;
                         font-weight: 700;
+                        line-height: 28px;
+                        line-height: 100%;
+                        margin: 0;
                         display: flex;
                         align-items: center;
                         text-transform: uppercase;
-                        color: #2D3033;
                     }
-                    .client__repute{
-                        width: 370px;
-                        height: 19px;
+                    p {
+                        width: 270px;
+                        height: 80px;
+                        margin: 0;
+                        color: #2d3033;
                         font-size: 18px;
                         font-weight: 400;
-                        margin-bottom: 32px;
-                        text-transform: uppercase;
-                        color: #2D3033;
+                        display: flex;
+                        align-items: center;
                     }
-                    .mogo__main--line{
-                        border: 4px solid #F38281;
-                        width: 70px;
-                        margin: 0;
-                        margin-bottom: 32px;
-                    }
-                    .client__text{
-                        width: 370px;
-                        height: 150px;
-                        font-size: 18px;
-                        color: #2D3033;
+                    .mogo__main--service--text {
+                        margin-left: 37px;
                     }
                 }
             }
-            
         }
-    }
-}
-.mogo__main--block8{
-    .mogo__main--heading{
-        width: 1170px;
-        height: 80px;
-        margin: auto;
-        // margin: 0 170px 42px 170px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 30px;
-        margin-top: 84px;
-        line-height: 44px;
-        color: #2D3033;
-    }
-    .mogo__main--story{
-        width: 1170px;
-        height: 80px;
-        margin: 0 170px 24px 170px;
-        margin: auto;
-        text-align: center;
-        font-size: 36px;
-        line-height: 42px;
-        line-height: 100%;
-        color: #2D3033;
-        font-weight: 900;
-    }
-    .mogo__main--line{
-        content: "";
-        border: 4px solid #F38281;
-        width: 170px;
-        margin: auto;
-        
-        margin-bottom: 24px;
-        
-    }
-    .mogo__main--stories{
-        width: 1184px;
-        margin: auto;
-        display: flex;
-        .jan15{
-            
+        .mogo__main--block3 {
+            // margin-top: 90px;
+            background: url("./img/unsplash_l.png");
+            width: 1510px;
+            height: 868px;
+            z-index: -1;
             position: relative;
-            z-index: 2;
-            display: grid;
-            top: 156px;
-            left: -1210px;
-            grid-template-columns: 400px 400px 0;
-            h5{
-                
-                background: #95E1D3;
-                width: 80px;
-                height: 80px;
-                color: #f5f5f5;
-                display: block;
-                text-align: center;
-                
-                
-                line-height: 0;
-                
-                
-                strong{
-                    position: relative;
-                    font-size: 36px;
-                    font-weight: 700;
-                    top: 30px;
-                }
-                p{
-                    position: relative;
-                    top: 30px;
-                    font-size: 18px;
-                    font-weight: 500;
-                    text-transform: uppercase;
-                }
-            }
-        }
-        .mogo__main--story{
-            margin: 42px 30px 84px 0;
-            .mogo__story--img{
-                width: 370px;
-                height: 253px;
-                
-            }
-            .mogo__story--head{
-                font-size: 24px;
-                font-weight: 700;
-                color: #2D3033;
-                width: 370px;
-                height: 40px;
-                text-transform: uppercase;
-                display: flex;
-                
-                
-                
-            }
-            .mogo__story--text{
-                font-size: 18px;
-                font-weight: 400;
-                width: 370px;
-                height: 120px;
-                text-align: left;
-                line-height: 21px;
-            }
-            .mogo__story--views{
-                
-                display: flex;
-                img{
-                    margin-right:18px;
-                }
-                p{
-                    
-                    width: 52px;
-                    height: 32px;
-                    font-size: 18px;
-                    font-weight: 400;
-                    margin-right:  60px;
+            margin: auto;
+            .mogo__main--block3--bg {
+                background: rgba(255, 255, 255, 0.8);
+                z-index: 10;
+
+                position: absolute;
+                width: 1510;
+                height: 868px;
+                .mogo__main--heading {
+                    width: 1170px;
+                    height: 80px;
+                    margin: auto;
+                    margin: 0 170px 42px 170px;
+                    text-align: center;
                     display: flex;
+                    justify-content: center;
                     align-items: center;
+                    font-size: 30px;
+                    line-height: 44px;
+                    color: #2d3033;
                 }
-                
+                .mogo__main--story {
+                    width: 1170px;
+                    height: 80px;
+                    margin: 0 170px 24px 170px;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 36px;
+                    line-height: 42px;
+                    line-height: 100%;
+                    color: #2d3033;
+                    font-weight: 900;
+                }
+                .mogo__main--line {
+                    content: "";
+                    border: 4px solid #f4bf87;
+                    width: 170px;
+                    margin: auto;
+                    margin-bottom: 85px;
+                }
+                .mogo__main--tablet {
+                    width: 1170px;
+                    height: 525px;
+                    margin-left: 170px;
+                    .mogo__main--tablet--out {
+                        position: absolute;
+                        z-index: 3;
+                    }
+                    .mogo__main--tablet--in {
+                        top: 20;
+                        left: 250px;
+                        z-index: -1;
+                        position: relative;
+                    }
+                }
+                .mogo__main--phone {
+                    .mogo__main--phone--out {
+                        left: 940px;
+                        z-index: 5;
+                        top: 498px;
+                        position: absolute;
+                    }
+                    .mogo__main--phone--in {
+                        position: absolute;
+                        top: 498px;
+                        left: 947px;
+                        z-index: 4;
+                    }
+                }
             }
         }
-        
+        .mogo__main--block4 {
+            .mogo__main--heading {
+                width: 1170px;
+                height: 80px;
+                margin: auto;
+                // margin: 0 170px 42px 170px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                line-height: 44px;
+                color: #2d3033;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f38281;
+                width: 170px;
+                margin: auto;
+                margin-bottom: 24px;
+            }
+            .mogo__main--text {
+                width: 1170px;
+                height: 118px;
+                margin: 24px 170px 42px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 18px;
+                line-height: 21px;
+                line-height: 100%;
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .mogo__main--block4--info {
+                display: flex;
+
+                margin: 42px 170px 114px 170px;
+                margin: auto;
+                width: 1170px;
+            }
+            .mogo__main--info--img {
+                width: 570px;
+                height: 483px;
+                margin: 42px 0px 114px 0px;
+            }
+            .mogo__main--1st-unit {
+                width: 570px;
+                height: 255px;
+                border: 1px solid #c6cbcd;
+                margin: 42px 170px 22px 30px;
+
+                .mogo__main--1st-unit-head {
+                    display: flex;
+                    height: 92px;
+                    width: 570px;
+                    border-bottom: 1px solid #c6cbcd;
+                    .src1 {
+                        width: 36px;
+                        height: 36px;
+                        margin: 28px 43px 28px 21px;
+                    }
+                    p {
+                        width: 370px;
+                        height: 92px;
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        color: #2d3033;
+                        line-height: 28px;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                        font-weight: 700;
+                    }
+                    .src2 {
+                        width: 30px;
+                        height: 16px;
+                        margin: 33px 20px 42px 50px;
+                    }
+                }
+                .mogo__main--1st-unit-bottom {
+                    display: flex;
+                    p {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 463px;
+                        height: 163px;
+                        margin: 0 54px 0 22px;
+                        font-size: 18px;
+                        color: #2d3033;
+                    }
+                    .scroll {
+                        content: "";
+                        height: 128px;
+                        width: 7px;
+                        border: 1px solid #f5f5f5;
+                        margin: 17px 24px 18px 54px;
+                        background: #f5f5f5;
+                        .scroll2 {
+                            width: 7px;
+                            height: 60px;
+                            background: #95e1d3;
+                        }
+                    }
+                }
+            }
+            .mogo__main--others--units {
+                display: block;
+                .mogo__main--1st-unit-head {
+                    display: flex;
+                    height: 92px;
+                    width: 570px;
+                    border: 1px solid #c6cbcd;
+                    margin: 22px 170px 22px 30px;
+                    .src1 {
+                        width: 36px;
+                        height: 36px;
+                        margin: 28px 43px 28px 21px;
+                    }
+                    p {
+                        width: 370px;
+                        height: 92px;
+                        font-size: 24px;
+                        text-transform: uppercase;
+                        color: #2d3033;
+                        line-height: 28px;
+                        margin: 0;
+                        display: flex;
+                        align-items: center;
+                        font-weight: 700;
+                    }
+                    .src2 {
+                        width: 30px;
+                        height: 16px;
+                        margin: 33px 20px 42px 50px;
+                    }
+                }
+            }
+            .mogo__main--4block-reviews {
+                width: 1510px;
+                height: 254px;
+                background: #f8f8f8;
+                display: flex;
+                margin: 0 0 84px 0;
+                margin: auto;
+                .mogo__main--4block-left--arrow {
+                    margin: 122px 58px 101px 195px;
+                }
+                .mogo__main-4block--icon {
+                    width: 170px;
+                    height: 170px;
+                    border: 2px solid #95e1d3;
+                    margin: 42px 0px 42px 0px;
+                    img {
+                        margin: 48px;
+                    }
+                }
+                .mogo__main-4block--mainpart {
+                    .mogo__main-4block--headpart {
+                        width: 770px;
+                        height: 96px;
+                        margin: 42px 60px 0px 30px;
+                        color: #a9afb1;
+                        font-size: 24px;
+                    }
+                    .mogo__main-4block--footerpart {
+                        display: flex;
+                        .line__4block {
+                            content: "";
+                            border: 4px solid #f38281;
+                            width: 70px;
+                            margin: 48px 56px 68px 30px;
+                            // height: 4px;
+                            // color: #F38281;
+                        }
+                        .name__4block--footer {
+                            width: 644px;
+                            height: 53px;
+                            display: flex;
+                            align-items: center;
+                            margin: 21px 60px 42px 0px;
+                            font-size: 30px;
+                            color: #000000;
+                            line-height: 44px;
+                        }
+                    }
+                }
+                .mogo__main-4block--right--arrow {
+                    margin: 122px 195px 101px 0px;
+                }
+            }
+        }
+        .mogo__main--5block {
+            .mogo__main--heading {
+                width: 1170px;
+                height: 80px;
+                margin: auto;
+                // margin: 0 170px 42px 170px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                line-height: 44px;
+                color: #2d3033;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f38281;
+                width: 170px;
+                margin: auto;
+                margin-bottom: 24px;
+            }
+            .mogo__main--text {
+                width: 1170px;
+                height: 118px;
+                margin: 24px 170px 42px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 18px;
+                line-height: 21px;
+                line-height: 100%;
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .mogo__main--5block--designers {
+                z-index: 0;
+                max-width: 1510px;
+                max-height: 424px;
+                margin-left: 170px;
+                ul {
+                    display: flex;
+                    margin: auto;
+                    width: 1200px;
+                    // margin: 0 170px;
+                    // display: grid;
+                    // text-align: center;
+                    // justify-content: center;
+                    // margin: auto;
+                    // grid-template-columns: 400px 400px 400px;
+                    // position: absolute;
+                    // left: 330px;
+                    z-index: 0;
+                    position: relative;
+                    li {
+                        width: 370px;
+                        height: 424px;
+                        list-style-type: none;
+                        margin: 15px;
+                        position: relative;
+                        .links {
+                            display: flex;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -40%);
+                            z-index: 1;
+                            opacity: 0;
+                        }
+                    }
+                    li::after {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        content: "";
+                        height: 100%;
+                        width: 100%;
+                        opacity: 0;
+                        background: linear-gradient(360deg, rgba(237, 215, 137, 0.9) 0%, rgba(233, 130, 131, 0.9) 100%);
+                        transition: 0.3s;
+                    }
+                    li:hover::after {
+                        opacity: 1;
+                        transform: translate(-5%, -5%);
+                    }
+                    li:hover {
+                        .links {
+                            opacity: 1;
+                            transform: translate(-65%, -50%);
+                            transition: 0.3s;
+                        }
+                    }
+                }
+            }
+
+            .mogo__block5--des-name {
+                max-width: 1510px;
+                max-height: 80px;
+                margin-left: 170px;
+
+                display: grid;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: auto;
+                grid-template-columns: 400px 400px 400px;
+                .name {
+                    p {
+                        position: relative;
+                        margin: auto;
+                        width: 370px;
+                        height: 80px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .mogo__block5--des {
+                max-width: 1510px;
+                max-height: 30px;
+                margin-left: 170px;
+
+                display: grid;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+                margin: auto;
+                grid-template-columns: 400px 400px 400px;
+                .des {
+                    position: relative;
+                    margin: auto;
+                    width: 370px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 18px;
+                }
+            }
+            .mogo__main--5block-links {
+                background: #f8f8f8;
+
+                max-width: 1510px;
+                max-height: 221px;
+                margin: auto;
+                ul {
+                    margin-top: 84px;
+                    display: flex;
+                    li {
+                        list-style-type: none;
+                        margin: 70px 80px;
+                    }
+                }
+            }
+        }
+        .mogo__main--6block {
+            .mogo__main--heading {
+                width: 1170px;
+                height: 80px;
+                margin: auto;
+                // margin: 0 170px 42px 170px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                margin-top: 84px;
+                line-height: 44px;
+                color: #2d3033;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f38281;
+                width: 170px;
+                margin: auto;
+                margin-bottom: 24px;
+            }
+            .mogo__main--text {
+                width: 1170px;
+                height: 118px;
+                margin: 24px 170px 42px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 18px;
+                line-height: 21px;
+                line-height: 100%;
+                color: #000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .mogo__main--6block--pictures {
+                margin-top: 42px;
+                .head__side {
+                    position: relative;
+                    z-index: 0;
+                    ul {
+                        margin: auto;
+                        max-width: 1510px;
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        position: relative;
+
+                        li {
+                            list-style-type: none;
+                            position: relative;
+                            z-index: 1;
+                            width: 100%;
+                            height: 100%;
+                            .text {
+                                position: absolute;
+                                left: 50%;
+                                top: 45%;
+                                transform: translate(-50%, -50%);
+                                color: #fff;
+                                z-index: 1;
+                                opacity: 0;
+                                transition: 0.3s;
+                                }
+                                .text2 {
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 55%;
+                                    transform: translate(-50%, -50%);
+                                    color: #fff;
+                                    z-index: 1;
+                                    opacity: 0;
+                                    transition: 0.3s;
+                                    }
+                                    .troph{
+                                        position: absolute;
+                                left: 50%;
+                                top: 30%;
+                                transform: translate(-50%, -50%);
+                                color: #fff;
+                                z-index: 1;
+                                opacity: 0;
+                                transition: 0.3s;
+                                    }
+                        }
+
+                        li::after {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            height: 100%;
+                            width: 100%;
+                            opacity: 0;
+                            background: linear-gradient(
+                                360deg,
+                                rgba(237, 215, 137, 0.9) 0%,
+                                rgba(233, 130, 131, 0.9) 100%
+                            );
+                            transition: 0.3s;
+                        }
+                        li:hover::after {
+                            opacity: 1;
+                            transform: translate(-5%,-5%);
+                        }
+                        li:hover{
+                            .text{
+                                transform: translate(-60%, -60%);
+                                opacity: 1;
+                                transition: 0.3s;
+                            }
+                            .text2{
+                                transform: translate(-60%, -60%);
+                                opacity: 1;
+                                transition: 0.3s;
+                            }
+                            .troph{
+                                transform: translate(-70%, -60%);
+                                opacity: 1;
+                                transition: 0.3s;
+                            }
+                        }
+                    }
+                }
+                .bot__side {
+                    ul {
+                        max-width: 1510px;
+                        width: 100%;
+                        display: flex;
+
+                        li {
+                            height: 0;
+                            position: relative;
+                            top: -383px;
+                            z-index: 1;
+                            
+                            
+                        }
+                        li:last-child {
+                            position: relative;
+                            left: 126px;
+                        }
+                        li::after {
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            content: "";
+                            height: 100%;
+                            width: 75%;
+                            opacity: 0;
+                            background: linear-gradient(
+                                360deg,
+                                rgba(237, 215, 137, 0.9) 0%,
+                                rgba(233, 130, 131, 0.9) 100%
+                            );
+                            transition: 0.3s;
+                        }
+                        li:hover::after {
+                            opacity: 1;
+                            transform: translate(-5%,-5%);
+                        }
+
+                    }
+                }
+            }
+            .mogo__main--block6--bottom {
+                margin-top: 64px;
+                // width: 1510px;
+                // margin: auto;
+                //     height: 254px;
+                .mogo__main--6block-reviews {
+                    width: 1510px;
+                    height: 254px;
+                    background: #ffffff;
+                    display: flex;
+                    margin: 0 0 84px 0;
+                    margin: auto;
+                    .mogo__main--6block-left--arrow {
+                        margin: 122px 58px 101px 195px;
+                    }
+                    .mogo__main-6block--icon {
+                        width: 170px;
+                        height: 170px;
+
+                        margin: 42px 30px 42px 0px;
+                        img {
+                            width: 170px;
+                            height: 170px;
+                        }
+                    }
+                    .mogo__main-6block--mainpart {
+                        .mogo__main-6block--headpart {
+                            width: 770px;
+                            height: 96px;
+                            margin: 42px 60px 0px 30px;
+                            color: #a9afb1;
+                            font-size: 24px;
+                        }
+                        .mogo__main-6block--footerpart {
+                            display: flex;
+                            .line__6block {
+                                content: "";
+                                border: 4px solid #f38281;
+                                width: 70px;
+                                margin: 48px 56px 68px 30px;
+                                // height: 4px;
+                                // color: #F38281;
+                            }
+                            .name__6block--footer {
+                                width: 644px;
+                                height: 53px;
+                                display: flex;
+                                align-items: center;
+                                margin: 21px 60px 42px 0px;
+                                font-size: 30px;
+                                color: #000000;
+                                line-height: 44px;
+                            }
+                        }
+                    }
+                    .mogo__main-6block--right--arrow {
+                        margin: 122px 195px 101px 0px;
+                    }
+                }
+            }
+        }
+        .mogo__main--block7 {
+            width: 1510px;
+            height: 923px;
+
+            position: relative;
+            z-index: 0;
+            margin: auto;
+            margin-top: 84px;
+            background: url("./img/unsplash_-qrcOR33ErA.png");
+            .mogo__main--block7--background {
+                width: 1510px;
+                height: 923px;
+                position: relative;
+                z-index: 1;
+                background: url("./img/Rectangle24.png");
+                opacity: 0.9;
+                .mogo__main--heading {
+                    width: 1170px;
+                    height: 80px;
+                    margin: auto;
+                    // margin: 0 170px 42px 170px;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    margin-top: 84px;
+                    line-height: 44px;
+                    color: #2d3033;
+                }
+                .mogo__main--story {
+                    width: 1170px;
+                    height: 80px;
+                    margin: 0 170px 24px 170px;
+                    margin: auto;
+                    text-align: center;
+                    font-size: 36px;
+                    line-height: 42px;
+                    line-height: 100%;
+                    color: #2d3033;
+                    font-weight: 900;
+                }
+                .mogo__main--line {
+                    content: "";
+                    border: 4px solid #f38281;
+                    width: 170px;
+                    margin: auto;
+                    margin-bottom: 24px;
+                }
+                .mogo__main--happy-clients {
+                    margin-left: 190px;
+                    display: grid;
+                    grid-template-columns: 650px 500px;
+                    grid-template-rows: 350px 350px;
+                    .mogo__main--client {
+                        width: 550px;
+                        height: 285px;
+                        margin-top: 42px;
+                        display: flex;
+                        .mogo__main--client--photo {
+                            margin: 20px 50px 135px 0px;
+                        }
+                        .mogo__maim--client--charact {
+                            .client__name {
+                                width: 370px;
+                                height: 52px;
+                                font-size: 24px;
+                                font-weight: 700;
+                                display: flex;
+                                align-items: center;
+                                text-transform: uppercase;
+                                color: #2d3033;
+                            }
+                            .client__repute {
+                                width: 370px;
+                                height: 19px;
+                                font-size: 18px;
+                                font-weight: 400;
+                                margin-bottom: 32px;
+                                text-transform: uppercase;
+                                color: #2d3033;
+                            }
+                            .mogo__main--line {
+                                border: 4px solid #f38281;
+                                width: 70px;
+                                margin: 0;
+                                margin-bottom: 32px;
+                            }
+                            .client__text {
+                                width: 370px;
+                                height: 150px;
+                                font-size: 18px;
+                                color: #2d3033;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mogo__main--block8 {
+            .mogo__main--heading {
+                width: 1170px;
+                height: 80px;
+                margin: auto;
+                // margin: 0 170px 42px 170px;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 30px;
+                margin-top: 84px;
+                line-height: 44px;
+                color: #2d3033;
+            }
+            .mogo__main--story {
+                width: 1170px;
+                height: 80px;
+                margin: 0 170px 24px 170px;
+                margin: auto;
+                text-align: center;
+                font-size: 36px;
+                line-height: 42px;
+                line-height: 100%;
+                color: #2d3033;
+                font-weight: 900;
+            }
+            .mogo__main--line {
+                content: "";
+                border: 4px solid #f38281;
+                width: 170px;
+                margin: auto;
+
+                margin-bottom: 24px;
+            }
+            .mogo__main--stories {
+                width: 1184px;
+                margin: auto;
+                display: flex;
+                .jan15 {
+                    position: relative;
+                    z-index: 2;
+                    display: grid;
+                    top: 156px;
+                    left: -1210px;
+                    grid-template-columns: 400px 400px 0;
+                    h5 {
+                        background: #95e1d3;
+                        width: 80px;
+                        height: 80px;
+                        color: #f5f5f5;
+                        display: block;
+                        text-align: center;
+
+                        line-height: 0;
+
+                        strong {
+                            position: relative;
+                            font-size: 36px;
+                            font-weight: 700;
+                            top: 30px;
+                        }
+                        p {
+                            position: relative;
+                            top: 30px;
+                            font-size: 18px;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+                .mogo__main--story {
+                    margin: 42px 30px 84px 0;
+                    .mogo__story--img {
+                        width: 370px;
+                        height: 253px;
+                    }
+                    .mogo__story--head {
+                        font-size: 24px;
+                        font-weight: 700;
+                        color: #2d3033;
+                        width: 370px;
+                        height: 40px;
+                        text-transform: uppercase;
+                        display: flex;
+                    }
+                    .mogo__story--text {
+                        font-size: 18px;
+                        font-weight: 400;
+                        width: 370px;
+                        height: 120px;
+                        text-align: left;
+                        line-height: 21px;
+                    }
+                    .mogo__story--views {
+                        display: flex;
+                        img {
+                            margin-right: 18px;
+                        }
+                        p {
+                            width: 52px;
+                            height: 32px;
+                            font-size: 18px;
+                            font-weight: 400;
+                            margin-right: 60px;
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                }
+            }
+        }
     }
-}
-}
-
-
-
-
 }
