@@ -422,7 +422,7 @@ body .mogo__body .mogo__main--block3 {
 body .mogo__body .mogo__main--block3 .mogo__main--block3--bg {
   z-index: 10;
   width: 1510px;
-  height: 868px;
+  height: 100%;
   background: #fffc;
   position: absolute;
 }
@@ -460,7 +460,6 @@ body .mogo__body .mogo__main--block3 .mogo__main--block3--bg .mogo__main--line {
 
 body .mogo__body .mogo__main--block3 .mogo__main--block3--bg .mogo__main--tablet {
   width: 1170px;
-  height: 525px;
   margin-left: 170px;
 }
 
@@ -542,13 +541,11 @@ body .mogo__body .mogo__main--block4 .mogo__main--block4--info {
 
 body .mogo__body .mogo__main--block4 .mogo__main--info--img {
   width: 570px;
-  height: 483px;
   margin: 42px 0 114px;
 }
 
 body .mogo__body .mogo__main--block4 .mogo__main--1st-unit {
   width: 570px;
-  height: 255px;
   border: 1px solid #c6cbcd;
   margin: 42px 170px 22px 30px;
 }
@@ -591,7 +588,6 @@ body .mogo__body .mogo__main--block4 .mogo__main--1st-unit .mogo__main--1st-unit
 
 body .mogo__body .mogo__main--block4 .mogo__main--1st-unit .mogo__main--1st-unit-bottom p {
   width: 463px;
-  height: 163px;
   color: #2d3033;
   justify-content: center;
   align-items: center;
@@ -654,7 +650,6 @@ body .mogo__body .mogo__main--block4 .mogo__main--others--units .mogo__main--1st
 
 body .mogo__body .mogo__main--block4 .mogo__main--4block-reviews {
   width: 1510px;
-  height: 254px;
   background: #f8f8f8;
   margin: auto;
   display: flex;
@@ -666,7 +661,6 @@ body .mogo__body .mogo__main--block4 .mogo__main--4block-reviews .mogo__main--4b
 
 body .mogo__body .mogo__main--block4 .mogo__main--4block-reviews .mogo__main-4block--icon {
   width: 170px;
-  height: 170px;
   border: 2px solid #95e1d3;
   margin: 42px 0;
 }
@@ -756,7 +750,6 @@ body .mogo__body .mogo__main--5block .mogo__main--text {
 body .mogo__body .mogo__main--5block .mogo__main--5block--designers {
   z-index: 0;
   max-width: 1510px;
-  max-height: 424px;
   margin-left: 170px;
 }
 
@@ -770,7 +763,6 @@ body .mogo__body .mogo__main--5block .mogo__main--5block--designers ul {
 
 body .mogo__body .mogo__main--5block .mogo__main--5block--designers ul li {
   width: 370px;
-  height: 424px;
   margin: 15px;
   list-style-type: none;
   position: relative;
@@ -856,7 +848,6 @@ body .mogo__body .mogo__main--5block .mogo__block5--des .des {
 
 body .mogo__body .mogo__main--5block .mogo__main--5block-links {
   max-width: 1510px;
-  max-height: 221px;
   background: #f8f8f8;
   margin: auto;
 }
@@ -927,16 +918,15 @@ body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .head__side {
 body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .head__side ul {
   max-width: 1510px;
   width: 100%;
-  height: 100%;
+  grid-template-areas: "a b c d"
+                       "e f с j";
   margin: auto;
-  display: flex;
+  display: grid;
   position: relative;
 }
 
 body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .head__side ul li {
   z-index: 1;
-  width: 100%;
-  height: 100%;
   list-style-type: none;
   position: relative;
 }
@@ -1003,41 +993,6 @@ body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .head__side u
   transform: translate(-70%, -60%);
 }
 
-body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .bot__side ul {
-  max-width: 1510px;
-  width: 100%;
-  display: flex;
-}
-
-body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .bot__side ul li {
-  height: 0;
-  z-index: 1;
-  position: relative;
-  top: -383px;
-}
-
-body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .bot__side ul li:last-child {
-  position: relative;
-  left: 126px;
-}
-
-body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .bot__side ul li:after {
-  content: "";
-  height: 100%;
-  width: 75%;
-  opacity: 0;
-  background: linear-gradient(360deg, #edd789e6 0%, #e98283e6 100%);
-  transition: all .3s;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-body .mogo__body .mogo__main--6block .mogo__main--6block--pictures .bot__side ul li:hover:after {
-  opacity: 1;
-  transform: translate(-5%, -5%);
-}
-
 body .mogo__body .mogo__main--6block .mogo__main--block6--bottom {
   margin-top: 64px;
 }
@@ -1101,7 +1056,6 @@ body .mogo__body .mogo__main--6block .mogo__main--block6--bottom .mogo__main--6b
 
 body .mogo__body .mogo__main--block7 {
   width: 1510px;
-  height: 923px;
   z-index: 0;
   background: url("unsplash_-qrcOR33ErA.417beebd.png");
   margin: 84px auto auto;
@@ -1110,7 +1064,6 @@ body .mogo__body .mogo__main--block7 {
 
 body .mogo__body .mogo__main--block7 .mogo__main--block7--background {
   width: 1510px;
-  height: 923px;
   z-index: 1;
   opacity: .9;
   background: url("Rectangle24.c6d38520.png");
